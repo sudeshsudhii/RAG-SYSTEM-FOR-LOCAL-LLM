@@ -1,0 +1,22 @@
+[
+    {
+        "query": "What does RAG stand for?",
+        "expected_answer": "RAG stands for Retrieval-Augmented Generation.",
+        "relevant_docs": ["sample.txt"]
+    },
+    {
+        "query": "What are the two main steps in the RAG process?",
+        "expected_answer": "The two main steps are Retrieval and Generation.",
+        "relevant_docs": ["sample.txt"]
+    },
+    {
+        "query": "Why use FAISS?",
+        "expected_answer": "FAISS is a library for efficient similarity search and clustering of dense vectors, commonly used as a vector database in RAG systems.",
+        "relevant_docs": ["sample.txt"]
+    },
+    {
+        "query": "What is chunking in NLP?",
+        "expected_answer": "Chunking is the process of breaking down large documents into smaller, manageable pieces to preserve context for embeddings.",
+        "relevant_docs": ["sample.txt"]
+    }
+]

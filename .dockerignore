@@ -1,0 +1,9 @@
+venv/
+.env
+__pycache__/
+*.pyc
+.git/
+vector_db/
+logs/
+monitoring/
+evaluation/*_results.json
